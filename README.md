@@ -1,6 +1,6 @@
 # For Windows
 
-1. Download the installer from this link: [**python3**](#https://www.python.org/downloads/release/python-340/).
+1. Download the installer from this link: [**python3**](https://www.python.org/downloads/release/python-340/).
 2. Run the Installer
 3. Check the "Add Python 3.10 to PATH"
 4. Click "Install Now" and wait to finish the installation.
