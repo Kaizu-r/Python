@@ -2,10 +2,10 @@
 
 1. Download the installer from this link: [**python3**](https://www.python.org/downloads/release/python-340/).
 2. Run the Installer
-3. Check the "Add Python 3.10 to PATH"
-4. Click "Install Now" and wait to finish the installation.
+3. Check the `Add Python 3.10 to PATH`
+4. Click `Install Now` and wait to finish the installation.
 5. Close the installer. You have succesfully installed Python
-6. To test if it works, run the Command Prompt and enter "Python --version". You should see the version of Python you just installed
+6. To test if it works, run the Command Prompt and enter `Python --version`. You should see the version of Python you just installed
 
 # For Linux
 1. Open the terminal and run `sudo apt update`
