@@ -4,25 +4,25 @@
 
 1. **Download the Python Installer:**
    Go to the official Python website and download the installer for Python 3.10 from this link:
-   [Download Python 3.10](https://www.python.org/downloads/release/python-3100/)
+   [Download Python 3.1](https://www.python.org/ftp/python/3.1/python-3.1.msi)
 
 2. **Run the Installer:**
    Locate the downloaded `.exe` file (usually in your Downloads folder) and double-click it to run the installer.
 
-3. **Add Python to PATH:**
-   Before clicking "Install Now," **make sure to check the box that says "Add Python 3.10 to PATH"**.
-   This will let you run Python commands from the Command Prompt anywhere on your system.
-
-4. **Install Python:**
-   Click on **"Install Now"** to begin the installation process. The installer will copy all necessary files and set up Python on your computer.
+3. **Install Python:**
+   Click on **"Install For All Users"** to begin the installation process. Install it on the path specified by the installer and click Next.
 
 5. **Wait for Installation to Complete:**
    This may take a few minutes. Once finished, you’ll see a success message.
 
 6. **Close the Installer:**
-   Click "Close" to exit the setup wizard.
+   Click "Finish" to exit the setup wizard.
 
-7. **Verify Python Installation:**
+8. **Add Python to PATH**
+   In the task bar, search for "Edit The System Environment variables". Click `Environment Variables`. Select `Path` and click `Edit`
+   Click on `New`, select `Browse` and look for the "Python31" folder. Press `Move Up` until it is at the very top. 
+
+8. **Verify Python Installation:**
 
    * Open the **Command Prompt**: Press `Win + R`, type `cmd`, and press Enter.
    * Type the following command and press Enter:
@@ -33,13 +33,12 @@
    * You should see the installed Python version printed, like:
 
      ```
-     Python 3.10.0
+     Python 3.1
      ```
 
-8. **Troubleshooting:**
+9. **Troubleshooting:**
 
    * If you get an error like `'python' is not recognized as an internal or external command`, it means Python isn’t added to your PATH.
-   * You can either reinstall and ensure the "Add to PATH" box is checked, or manually add Python’s install directory to your PATH environment variable.
 
 ---
 
